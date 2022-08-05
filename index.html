@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blogr landing Page | Frontend Mentor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!--start header-->
+<header class="header">
+  <div class="header-container">
+    <div class="topnav">
+      <div id="logo">
+      <img src="/images/logo.svg">
+      </div>
+      <!-- hamburger menu btn-->
+      <div class="container" onclick="toggle()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      </div>
+      <!-- the navbar links -->
+       <div class="navbar">
+        <div class="navbar-container">
+          <button onclick="item" class="dropbtn">Product
+        <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+        </button>
+          <div class="dropdown-content">
+            <ul>
+            <li><a href="">Overview</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Marketplace</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Integration</a>
+            </ul></li>
+          </div>
+          <button onclick="item" class="dropbtn">Company
+          <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+        </button>
+          <div class="dropdown-content">
+            <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Careers</a></li>
+            </ul>
+          </div>
+          <button onclick="item" class="dropbtn">Connect
+            <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+          </button>
+          <div class="dropdown-content">
+            <ul>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Newsletter</a></li>
+            <li><a href="">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="sign-up">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="sign-up">Sign up</a>
+          </div>
+       </div>
+    </div>
+  </div>
+  <div class="heading">
+    <h1>A modern publishing platform</h1>
+  <p>Grow your audience and build your online brand</p>
+
+  <div class="button-container">
+     <button>Start for Free</button>
+     <button>Learn More</button>
+  </div>
+  </div>
+</header>
+<!--End header-->
+<section class="sec1">
+  <h1>Designed for the future</h1>
+ <div class="sec2">
+    <div class="miracle">
+    </div>
+  <h1>Introducing an extensible editor</h1>
+  <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+  videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+  change the looks of a blog.</p>
+  <h1>Robust content management</h1>
+  <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+  by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+  </div>
+</section>
+
+<section class="sec3">
+  <div class="sec3-container">
+  <img src="/images/illustration-phones.svg" width="350px">
+  <div class="content">
+  <h1>State of the Art Infrastructure</h1>
+  <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+</p>
+</div>
+</div>
+</section>
+
+<section class="sec1">
+  <img src="/images/illustration-laptop-mobile.svg" width="350px" margin>
+</section>
+
+<section class="sec2">
+  <h1>Free, open, simple</h1>
+  <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports
+  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
+  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+  <h1>Powerful tooling</h1>
+  <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+  capable of producing even the most complicated sites.
+</p>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="logo-container">
+      <img src="/images/logo.svg" alt="">
+    </div>
+    <div class="footer-link">
+      <h4>Product</h4>
+      <ul>
+        <li><a href="#">Overview</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Marketplace</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Integrations</a></li>
+      </ul>
+    </div>
+     <div class="footer-link">
+       <h4>Company</h4>
+       <ul>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Team</a></li>
+         <li><a href="#">Blog</a></li>
+         <li><a href="#">Career</a></li>
+       </ul>
+     </div>
+      <div class="footer-link">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+  </div>
+   <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ifeawoyemi">Ifeawoyemi</a>.
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
